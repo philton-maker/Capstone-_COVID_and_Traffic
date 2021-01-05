@@ -1,6 +1,6 @@
 <b>Executive Summary</b>
 
-COVID-19 has been a reality of life for what feels like years, but is in actuality around 9 months. At this point, we are starting to get a grasp on the widespread consequences and surreptitious effects of a pandemic-caused quarantine. Aside from the obvious ones, such as increases in depression and anxiety, a variety of sociologic phenomenon have made themselves known in the elapsed months. The phenomenon that I wish to inspect, using data provided by the Nashville Police Department and TN.gov, is the increase in perceived driver incidents in the Nashville Area.
+COVID-19 has been a reality of life for what feels like years, but is in actuality around 9 months. At this point, we are starting to get a grasp on the widespread consequences and surreptitious effects of a pandemic-caused quarantine. Aside from the obvious ones, such as increases in depression and anxiety, a variety of sociologic phenomena have made themselves known in the elapsed months. The phenomenon that I wish to inspect, using data provided by the Nashville Police Department and TN.gov, is the increase in perceived driver incidents in the Nashville Area.
 
 <b>Motivation</b>
 
@@ -9,7 +9,7 @@ Since the advent of COVID-19, I feel like there have been noticeably more times 
 <b>Data Questions</b>
 
 Present the average metrics for traffic incidents over the last five years before COVID (2014-2019) by incident type in the Nashville area
-What was the mean/median rate of DUI’s and traffic incidents by month?
+What was the mean rate of DUI’s and traffic incidents by month?
 During what months of the year did these metrics rise/fall?
 Compare these gathered and prepared metrics to current metrics 
 Use either Tableau Story or Powerpoint Presentation with linking SQL queries or Python code
