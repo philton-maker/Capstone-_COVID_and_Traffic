@@ -4,20 +4,18 @@ COVID-19 has been a reality of life for what feels like years, but is in actuali
 
 <b>Motivation</b>
 
-Since the advent of COVID-19, I feel like there have been noticeably more times where I have been driving home from work at midnight, and some drunk driver either nearly runs me off the road or comes within a hair of slamming into my car when I’m driving up Ellington. This leads me to believe that for whatever reason, quarantine has contributed to a detriment in driver competency, be it due to increased alcohol consumption or less ‘practice’ time spent driving.  My MVP will be as follows:
+Since the advent of COVID-19, I feel like there have been noticeably more times where I have been driving home from work at midnight, and some drunk driver either nearly runs me off the road or comes within a hair of slamming into my car when I’m driving up Ellington. This leads me to believe that for whatever reason, quarantine has contributed to a detriment in driver competency, be it due to increased alcohol consumption or less ‘practice’ time spent driving.
 
 <b>Data Questions</b>
 
-Present the average metrics for traffic incidents over the last five years before COVID (2014-2019) by incident type in the Nashville area
-What was the mean rate of DUI’s and traffic incidents by month?
+What are the average metrics for traffic incidents and DUI's in Nashville since 2014?
 During what months of the year did these metrics rise/fall?
-Compare these gathered and prepared metrics to current metrics 
-Use either Tableau Story or Powerpoint Presentation with linking SQL queries or Python code
-POSSIBLE ANCILLARY ANALYSIS: heat map of highest concentrations for each metric?
+Compare these gathered and prepared metrics to current metrics. 
+Identify the areas of Nashville where most traffic incidents take place and compare them to the same areas in 2020.
 
 <b>Minimally Viable Products</b>
 
-Complete outside research and presentation giving possible explanations for the resulting differences or maintenance of these figures
+My MVP is a presentation along with outside research explaining and clarifying the findings from my analysis. 
 
 
 <b>Data Sources</b>
@@ -30,9 +28,10 @@ https://www.tn.gov/health/cedep/ncov/data/downloadable-datasets.html (county new
 
 Dataset from Nashville Police Department only available upon request (directly given .xlsx)
 
-<b>Known Issues and Challenges</b>
+<b>Challenges</b>
 
-Current metrics will need be calculated/updated as close to the presentation as possible.
-Will require cleaning of incident description to enable grouping, using Tableau Prep, Excel, or Python
-Will need to segment several years worth of data sets using SQL or Python
-Will need to remove any PII columns in the data set
+Many of the challenges associated with this project came in the form of data acquisition. While I thought that I would be using automatically refreshing API's, CSV files turned out to be the format of much of the data used in this project. This presented a challenge: I was working with datasets that would only be complete 7 days before I was set to present this project at preview day. This challenge was overcome in the form of writing ETL script in Python. Doing the initial import, cleaning, and export of this data into a cleaned data repository allowed me to simply input the updated CSVs into the script. The cleaned data repository autoloaded into my Tableau presentation, making the figures from 2020 complete.
+
+Another challenge came in the form of proprietary data, namely the names and addresses of the people involved in these incidents. This was solved in the project through simple data cleaning, and, in the case of Github, with a simple gitignore.
+
+*Feel free to reach out to me about any questions on my work or the data at www.linkedin.com/in/phil-campbell-2015.
